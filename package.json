@@ -1,0 +1,14 @@
+{
+  "name": "station-7-scenario",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Ink-сценарий «Последний кислород» для игровой сцены «Станция-7»",
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "playtest": "node tools/playtest.mjs"
+  },
+  "devDependencies": {
+    "inkjs": "^2.4.0"
+  }
+}
